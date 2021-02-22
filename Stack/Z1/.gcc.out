@@ -1,0 +1,142 @@
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In copy constructor ‘Stek<T>::Stek(const Stek<T>&)’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:36:15: error: redeclaration of ‘Stek<T>::Node* noviDonji’
+         Node *noviDonji = nullptr;
+               ^~~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:35:15: note: ‘Stek<T>::Node* noviDonji’ previously declared here
+         Node *noviDonji = nullptr;
+               ^~~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:43:13: error: expected ‘;’ before ‘if’
+             if(i == 0) noviDonji =tekuci;
+             ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: At global scope:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:54:9: error: prototype for ‘Stek<T> Stek<T>::operator=(Stek<T>&)’ does not match any in class ‘Stek<T>’
+ Stek<T> Stek<T>::operator=(Stek<T> &novi) {
+         ^~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:22:10: error: candidate is: Stek<T> Stek<T>::operator=(const Stek<T>&)
+     Stek operator=(const Stek <T> &novi);
+          ^~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In member function ‘void Stek<T>::stavi(const T&)’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:112:9: error: ‘dno’ was not declared in this scope
+         dno = novi;
+         ^~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In member function ‘T Stek<T>::skini()’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:134:1: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+ ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:134:3: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+   ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:134:5: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+     ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:134:7: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+       ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:134:9: error: expected primary-expression before ‘<’ token
+ <<<<<<<<< saved version
+         ^
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:134:11: error: ‘saved’ was not declared in this scope
+ <<<<<<<<< saved version
+           ^~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In function ‘bool TestirajMetoduBrisi(Stek<int>)’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:209:1: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+ ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:209:3: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+   ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:209:5: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+     ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:209:7: error: expected primary-expression before ‘<<’ token
+ <<<<<<<<< saved version
+       ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:209:9: error: expected primary-expression before ‘<’ token
+ <<<<<<<<< saved version
+         ^
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:209:11: error: ‘saved’ was not declared in this scope
+ <<<<<<<<< saved version
+           ^~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:213:22: error: ‘stekKopijaDodjele’ was not declared in this scope
+     if(stek.vrh() == stekKopijaDodjele.vrh())
+                      ^~~~~~~~~~~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In function ‘bool TestirajMetoduBrisi(Stek<int>)’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:219:6: error: redefinition of ‘bool TestirajMetoduBrisi(Stek<int>)’
+ bool TestirajMetoduBrisi(Stek<int> stek) {
+      ^~~~~~~~~~~~~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:187:6: note: ‘bool TestirajMetoduBrisi(Stek<int>)’ previously defined here
+ bool TestirajMetoduBrisi(Stek<int> stek) {
+      ^~~~~~~~~~~~~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In function ‘int main()’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:385:1: error: expected primary-expression before ‘==’ token
+ =========
+ ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:385:3: error: expected primary-expression before ‘==’ token
+ =========
+   ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:385:5: error: expected primary-expression before ‘==’ token
+ =========
+     ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:385:7: error: expected primary-expression before ‘==’ token
+ =========
+       ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:385:9: error: expected primary-expression before ‘=’ token
+ =========
+         ^
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:386:5: error: ‘brel’ was not declared in this scope
+     brel = s.brojElemenata();
+     ^~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:386:5: note: suggested alternative: ‘free’
+     brel = s.brojElemenata();
+     ^~~~
+     free
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:386:12: error: ‘s’ was not declared in this scope
+     brel = s.brojElemenata();
+            ^
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:1: error: expected primary-expression before ‘>>’ token
+ >>>>>>>>> local version
+ ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:3: error: expected primary-expression before ‘>>’ token
+ >>>>>>>>> local version
+   ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:5: error: expected primary-expression before ‘>>’ token
+ >>>>>>>>> local version
+     ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:7: error: expected primary-expression before ‘>>’ token
+ >>>>>>>>> local version
+       ^~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:9: error: expected primary-expression before ‘>’ token
+ >>>>>>>>> local version
+         ^
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:11: error: ‘local’ was not declared in this scope
+ >>>>>>>>> local version
+           ^~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:389:11: note: suggested alternative: ‘alloca’
+ >>>>>>>>> local version
+           ^~~~~
+           alloca
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In instantiation of ‘void Stek<T>::stavi(const T&) [with T = int]’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:156:21:   required from here
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:114:17: error: ‘struct Stek<int>::Node’ has no member named ‘previous’
+         novi -> previous = tekuci;
+         ~~~~~~~~^~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In instantiation of ‘Stek<T>::Stek(const Stek<T>&) [with T = int]’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:158:30:   required from here
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:33:13: error: no match for ‘operator!=’ (operand types are ‘Stek<int>*’ and ‘const Stek<int>’)
+     if(this != novi) {
+        ~~~~~^~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In instantiation of ‘T Stek<T>::skini() [with T = int]’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:160:22:   required from here
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:129:16: error: ‘struct Stek<int>::Node’ has no member named ‘previous’
+     if(temp -> previous != nullptr)
+        ~~~~~~~~^~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:130:28: error: ‘struct Stek<int>::Node’ has no member named ‘previous’
+         tekuci = tekuci -> previous;
+                  ~~~~~~~~~~^~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:127:7: warning: unused variable ‘element’ [-Wunused-variable]
+     T element = temp -> element;
+       ^~~~~~~
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp: In member function ‘T Stek<T>::skini() [with T = int]’:
+/rhome/a/amulalic1/workspace/ASP/PZ3/Z1/main.cpp:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

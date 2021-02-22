@@ -1,0 +1,5 @@
+Test[1] -> Kljuc: string, Vrijednost: int: USPJESAN
+Test[2] -> Kljuc: int, vrijednost: float: USPJESAN
+Test[3] -> Kljuc: string, vrijednost: bool: USPJESAN
+Test[4] -> Kljuc: float, vrijednost: vector<double>: USPJESAN
+Test[5] -> Kljuc: int, vrijednost: vector<int>: USPJESAN

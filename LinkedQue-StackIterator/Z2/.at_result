@@ -1,0 +1,447 @@
+{
+    "buildhost_description": {
+        "id": "lab002-c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n"
+    },
+    "tools": {
+        "compile": "g++ (GCC) 4.8.2",
+        "compile[debug]": "g++ (GCC) 4.8.2",
+        "debug": "GNU gdb (GDB) Red Hat Enterprise Linux (7.2-92.el6)",
+        "profile[memcheck]": "valgrind-3.8.1",
+        "profile[sgcheck]": "valgrind-3.8.1"
+    },
+    "status": 4,
+    "test_results": {
+        "1445": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "1 2",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9777== Memcheck, a memory error detector\n==9777== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9777== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9777== Command: output88xutA\n==9777==\n====START_TEST_7068====1 2====END_TEST_7068======9777==\n==9777== HEAP SUMMARY:\n==9777==     in use at exit: 0 bytes in 0 blocks\n==9777==   total heap usage: 36 allocs, 36 frees, 544 bytes allocated\n==9777==\n==9777== All heap blocks were freed -- no leaks are possible\n==9777==\n==9777== For counts of detected and suppressed errors, rerun with: -v\n==9777== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9780== Memcheck, a memory error detector\n==9780== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9780== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9780== Command: output88xutA\n==9780==\n====START_TEST_7068====1 2====END_TEST_7068======9780==\n==9780== HEAP SUMMARY:\n==9780==     in use at exit: 0 bytes in 0 blocks\n==9780==   total heap usage: 36 allocs, 36 frees, 544 bytes allocated\n==9780==\n==9780== All heap blocks were freed -- no leaks are possible\n==9780==\n==9780== For counts of detected and suppressed errors, rerun with: -v\n==9780== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1446": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Nema elementa",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9794== Memcheck, a memory error detector\n==9794== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9794== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9794== Command: outputkt9lb8\n==9794==\n====START_TEST_1988====Nema elementa====END_TEST_1988======9794==\n==9794== HEAP SUMMARY:\n==9794==     in use at exit: 0 bytes in 0 blocks\n==9794==   total heap usage: 48 allocs, 48 frees, 748 bytes allocated\n==9794==\n==9794== All heap blocks were freed -- no leaks are possible\n==9794==\n==9794== For counts of detected and suppressed errors, rerun with: -v\n==9794== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9797== Memcheck, a memory error detector\n==9797== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9797== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9797== Command: outputkt9lb8\n==9797==\n====START_TEST_1988====Nema elementa====END_TEST_1988======9797==\n==9797== HEAP SUMMARY:\n==9797==     in use at exit: 0 bytes in 0 blocks\n==9797==   total heap usage: 48 allocs, 48 frees, 748 bytes allocated\n==9797==\n==9797== All heap blocks were freed -- no leaks are possible\n==9797==\n==9797== For counts of detected and suppressed errors, rerun with: -v\n==9797== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1447": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Nema elementa",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9811== Memcheck, a memory error detector\n==9811== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9811== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9811== Command: outputLV3oTL\n==9811==\n====START_TEST_3090====Nema elementa====END_TEST_3090======9811==\n==9811== HEAP SUMMARY:\n==9811==     in use at exit: 0 bytes in 0 blocks\n==9811==   total heap usage: 48 allocs, 48 frees, 748 bytes allocated\n==9811==\n==9811== All heap blocks were freed -- no leaks are possible\n==9811==\n==9811== For counts of detected and suppressed errors, rerun with: -v\n==9811== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9814== Memcheck, a memory error detector\n==9814== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9814== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9814== Command: outputLV3oTL\n==9814==\n====START_TEST_3090====Nema elementa====END_TEST_3090======9814==\n==9814== HEAP SUMMARY:\n==9814==     in use at exit: 0 bytes in 0 blocks\n==9814==   total heap usage: 48 allocs, 48 frees, 748 bytes allocated\n==9814==\n==9814== All heap blocks were freed -- no leaks are possible\n==9814==\n==9814== For counts of detected and suppressed errors, rerun with: -v\n==9814== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1448": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Nema elementa",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9828== Memcheck, a memory error detector\n==9828== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9828== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9828== Command: outputw3K3Bv\n==9828==\n====START_TEST_4533====Nema elementa====END_TEST_4533======9828==\n==9828== HEAP SUMMARY:\n==9828==     in use at exit: 0 bytes in 0 blocks\n==9828==   total heap usage: 51 allocs, 51 frees, 2,456 bytes allocated\n==9828==\n==9828== All heap blocks were freed -- no leaks are possible\n==9828==\n==9828== For counts of detected and suppressed errors, rerun with: -v\n==9828== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9831== Memcheck, a memory error detector\n==9831== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9831== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9831== Command: outputw3K3Bv\n==9831==\n====START_TEST_4533====Nema elementa====END_TEST_4533======9831==\n==9831== HEAP SUMMARY:\n==9831==     in use at exit: 0 bytes in 0 blocks\n==9831==   total heap usage: 51 allocs, 51 frees, 2,456 bytes allocated\n==9831==\n==9831== All heap blocks were freed -- no leaks are possible\n==9831==\n==9831== For counts of detected and suppressed errors, rerun with: -v\n==9831== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1449": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "999989 0",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 2,
+                    "output": "==9845== Memcheck, a memory error detector\n==9845== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9845== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9845== Command: outputd6M4kl\n==9845==\n====START_TEST_6143====999989 0====END_TEST_6143======9845==\n==9845== HEAP SUMMARY:\n==9845==     in use at exit: 0 bytes in 0 blocks\n==9845==   total heap usage: 30 allocs, 30 frees, 36,388,388 bytes allocated\n==9845==\n==9845== All heap blocks were freed -- no leaks are possible\n==9845==\n==9845== For counts of detected and suppressed errors, rerun with: -v\n==9845== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 2,
+                    "output": "==9848== Memcheck, a memory error detector\n==9848== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9848== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9848== Command: outputd6M4kl\n==9848==\n====START_TEST_6143====999989 0====END_TEST_6143======9848==\n==9848== HEAP SUMMARY:\n==9848==     in use at exit: 0 bytes in 0 blocks\n==9848==   total heap usage: 30 allocs, 30 frees, 36,388,388 bytes allocated\n==9848==\n==9848== All heap blocks were freed -- no leaks are possible\n==9848==\n==9848== For counts of detected and suppressed errors, rerun with: -v\n==9848== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1450": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Nema elementa",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9862== Memcheck, a memory error detector\n==9862== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9862== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9862== Command: outputw5D1Op\n==9862==\n====START_TEST_5409====Nema elementa====END_TEST_5409======9862==\n==9862== HEAP SUMMARY:\n==9862==     in use at exit: 0 bytes in 0 blocks\n==9862==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==9862==\n==9862== All heap blocks were freed -- no leaks are possible\n==9862==\n==9862== For counts of detected and suppressed errors, rerun with: -v\n==9862== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9865== Memcheck, a memory error detector\n==9865== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9865== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9865== Command: outputw5D1Op\n==9865==\n====START_TEST_5409====Nema elementa====END_TEST_5409======9865==\n==9865== HEAP SUMMARY:\n==9865==     in use at exit: 0 bytes in 0 blocks\n==9865==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==9865==\n==9865== All heap blocks were freed -- no leaks are possible\n==9865==\n==9865== For counts of detected and suppressed errors, rerun with: -v\n==9865== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1451": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "2 0",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9879== Memcheck, a memory error detector\n==9879== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9879== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9879== Command: outputJTI1Rz\n==9879==\n====START_TEST_2460====2 0====END_TEST_2460======9879==\n==9879== HEAP SUMMARY:\n==9879==     in use at exit: 0 bytes in 0 blocks\n==9879==   total heap usage: 34 allocs, 34 frees, 4,276 bytes allocated\n==9879==\n==9879== All heap blocks were freed -- no leaks are possible\n==9879==\n==9879== For counts of detected and suppressed errors, rerun with: -v\n==9879== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9882== Memcheck, a memory error detector\n==9882== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9882== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9882== Command: outputJTI1Rz\n==9882==\n====START_TEST_2460====2 0====END_TEST_2460======9882==\n==9882== HEAP SUMMARY:\n==9882==     in use at exit: 0 bytes in 0 blocks\n==9882==   total heap usage: 34 allocs, 34 frees, 4,276 bytes allocated\n==9882==\n==9882== All heap blocks were freed -- no leaks are possible\n==9882==\n==9882== For counts of detected and suppressed errors, rerun with: -v\n==9882== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1452": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "2 0 9 8 5 6 0 1 2 3 4",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9896== Memcheck, a memory error detector\n==9896== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9896== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9896== Command: outputIkaWSP\n==9896==\n====START_TEST_6109====2 0 9 8 5 6 0 1 2 3 4 ====END_TEST_6109======9896==\n==9896== HEAP SUMMARY:\n==9896==     in use at exit: 0 bytes in 0 blocks\n==9896==   total heap usage: 48 allocs, 48 frees, 624 bytes allocated\n==9896==\n==9896== All heap blocks were freed -- no leaks are possible\n==9896==\n==9896== For counts of detected and suppressed errors, rerun with: -v\n==9896== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9899== Memcheck, a memory error detector\n==9899== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9899== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9899== Command: outputIkaWSP\n==9899==\n====START_TEST_6109====2 0 9 8 5 6 0 1 2 3 4 ====END_TEST_6109======9899==\n==9899== HEAP SUMMARY:\n==9899==     in use at exit: 0 bytes in 0 blocks\n==9899==   total heap usage: 48 allocs, 48 frees, 624 bytes allocated\n==9899==\n==9899== All heap blocks were freed -- no leaks are possible\n==9899==\n==9899== For counts of detected and suppressed errors, rerun with: -v\n==9899== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1453": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "244 0",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9913== Memcheck, a memory error detector\n==9913== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9913== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9913== Command: outputfZh3Yb\n==9913==\n====START_TEST_8689====244 0====END_TEST_8689======9913==\n==9913== HEAP SUMMARY:\n==9913==     in use at exit: 0 bytes in 0 blocks\n==9913==   total heap usage: 59 allocs, 59 frees, 411,336 bytes allocated\n==9913==\n==9913== All heap blocks were freed -- no leaks are possible\n==9913==\n==9913== For counts of detected and suppressed errors, rerun with: -v\n==9913== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9916== Memcheck, a memory error detector\n==9916== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9916== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9916== Command: outputfZh3Yb\n==9916==\n====START_TEST_8689====244 0====END_TEST_8689======9916==\n==9916== HEAP SUMMARY:\n==9916==     in use at exit: 0 bytes in 0 blocks\n==9916==   total heap usage: 59 allocs, 59 frees, 411,336 bytes allocated\n==9916==\n==9916== All heap blocks were freed -- no leaks are possible\n==9916==\n==9916== For counts of detected and suppressed errors, rerun with: -v\n==9916== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1454": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "9989 0",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==9930== Memcheck, a memory error detector\n==9930== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9930== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9930== Command: outputrjOAfE\n==9930==\n====START_TEST_633====9989 0====END_TEST_633======9930==\n==9930== HEAP SUMMARY:\n==9930==     in use at exit: 0 bytes in 0 blocks\n==9930==   total heap usage: 59 allocs, 59 frees, 411,336 bytes allocated\n==9930==\n==9930== All heap blocks were freed -- no leaks are possible\n==9930==\n==9930== For counts of detected and suppressed errors, rerun with: -v\n==9930== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==9941== Memcheck, a memory error detector\n==9941== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==9941== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==9941== Command: outputrjOAfE\n==9941==\n====START_TEST_633====9989 0====END_TEST_633======9941==\n==9941== HEAP SUMMARY:\n==9941==     in use at exit: 0 bytes in 0 blocks\n==9941==   total heap usage: 59 allocs, 59 frees, 411,336 bytes allocated\n==9941==\n==9941== All heap blocks were freed -- no leaks are possible\n==9941==\n==9941== For counts of detected and suppressed errors, rerun with: -v\n==9941== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1606690427
+}

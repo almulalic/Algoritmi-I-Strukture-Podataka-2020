@@ -1,0 +1,10 @@
+Testovi vracaju true ako su uspjesno zavrseni i a false ako nisu.
+
+Test kopirajuceg konstruktora: USPJESAN
+Test operatora dodjele: USPJESAN
+Test metoda za pomjeranje prethodni() i sljedeci() te metode trenutni(): USPJESAN
+Test metoda pocetak() i kraj(): USPJESAN
+Test metode obirsi(): USPJESAN
+Test metode dodajIspred(): USPJESAN
+Test metode dodajIza(): USPJESAN
+Test metode dodajIza(): USPJESAN

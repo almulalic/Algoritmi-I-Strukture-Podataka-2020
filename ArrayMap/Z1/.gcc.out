@@ -1,0 +1,9 @@
+/rhome/a/amulalic1/workspace/ASP/PZ7/Z1/main.cpp: In member function ‘TV NizMapa<TK, TV>::operator[](const TK&)’:
+/rhome/a/amulalic1/workspace/ASP/PZ7/Z1/main.cpp:88:5: error: expected ‘;’ before ‘if’
+     if(index == -1)
+     ^~
+/rhome/a/amulalic1/workspace/ASP/PZ7/Z1/main.cpp: In instantiation of ‘TV NizMapa<TK, TV>::operator[](const TK&) [with TK = std::__cxx11::basic_string<char>; TV = std::__cxx11::basic_string<char>]’:
+/rhome/a/amulalic1/workspace/ASP/PZ7/Z1/main.cpp:129:17:   required from here
+/rhome/a/amulalic1/workspace/ASP/PZ7/Z1/main.cpp:86:22: error: cannot convert ‘int*’ to ‘std::__cxx11::basic_string<char>*’ in assignment
+     kljucevi[duzina] = new int
+     ~~~~~~~~~~~~~~~~~^~~~~~~~~

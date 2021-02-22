@@ -1,0 +1,400 @@
+{
+    "buildhost_description": {
+        "id": "lab002-c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n"
+    },
+    "tools": {
+        "compile": "g++ (GCC) 4.8.2",
+        "compile[debug]": "g++ (GCC) 4.8.2",
+        "debug": "GNU gdb (GDB) Red Hat Enterprise Linux (7.2-92.el6)",
+        "profile[memcheck]": "valgrind-3.8.1",
+        "profile[sgcheck]": "valgrind-3.8.1"
+    },
+    "status": 4,
+    "test_results": {
+        "1771": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "2 Hrvatska '' '' 3 '' 0 ''",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==27158== Memcheck, a memory error detector\n==27158== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27158== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27158== Command: output0gnke5\n==27158==\n====START_TEST_2891====2 Hrvatska '' '' 3 '' 0 '' ====END_TEST_2891======27158==\n==27158== HEAP SUMMARY:\n==27158==     in use at exit: 0 bytes in 0 blocks\n==27158==   total heap usage: 16 allocs, 16 frees, 602 bytes allocated\n==27158==\n==27158== All heap blocks were freed -- no leaks are possible\n==27158==\n==27158== For counts of detected and suppressed errors, rerun with: -v\n==27158== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==27161== Memcheck, a memory error detector\n==27161== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27161== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27161== Command: output0gnke5\n==27161==\n====START_TEST_2891====2 Hrvatska '' '' 3 '' 0 '' ====END_TEST_2891======27161==\n==27161== HEAP SUMMARY:\n==27161==     in use at exit: 0 bytes in 0 blocks\n==27161==   total heap usage: 16 allocs, 16 frees, 602 bytes allocated\n==27161==\n==27161== All heap blocks were freed -- no leaks are possible\n==27161==\n==27161== For counts of detected and suppressed errors, rerun with: -v\n==27161== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1772": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "2 2 2 BiH 2 BiH 1 '' 0 ''",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==27175== Memcheck, a memory error detector\n==27175== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27175== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27175== Command: outputymNTQl\n==27175==\n====START_TEST_3923====2 2 2 BiH 2 BiH 1 '' 0 ''====END_TEST_3923======27175==\n==27175== HEAP SUMMARY:\n==27175==     in use at exit: 0 bytes in 0 blocks\n==27175==   total heap usage: 24 allocs, 24 frees, 973 bytes allocated\n==27175==\n==27175== All heap blocks were freed -- no leaks are possible\n==27175==\n==27175== For counts of detected and suppressed errors, rerun with: -v\n==27175== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==27178== Memcheck, a memory error detector\n==27178== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27178== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27178== Command: outputymNTQl\n==27178==\n====START_TEST_3923====2 2 2 BiH 2 BiH 1 '' 0 ''====END_TEST_3923======27178==\n==27178== HEAP SUMMARY:\n==27178==     in use at exit: 0 bytes in 0 blocks\n==27178==   total heap usage: 24 allocs, 24 frees, 973 bytes allocated\n==27178==\n==27178== All heap blocks were freed -- no leaks are possible\n==27178==\n==27178== For counts of detected and suppressed errors, rerun with: -v\n==27178== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1773": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "3 Sarajevo Tuzla 4",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==27192== Memcheck, a memory error detector\n==27192== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27192== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27192== Command: outputPE0LuH\n==27192==\n====START_TEST_5499====3 Sarajevo Tuzla 4====END_TEST_5499======27192==\n==27192== HEAP SUMMARY:\n==27192==     in use at exit: 0 bytes in 0 blocks\n==27192==   total heap usage: 16 allocs, 16 frees, 489 bytes allocated\n==27192==\n==27192== All heap blocks were freed -- no leaks are possible\n==27192==\n==27192== For counts of detected and suppressed errors, rerun with: -v\n==27192== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==27195== Memcheck, a memory error detector\n==27195== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27195== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27195== Command: outputPE0LuH\n==27195==\n====START_TEST_5499====3 Sarajevo Tuzla 4====END_TEST_5499======27195==\n==27195== HEAP SUMMARY:\n==27195==     in use at exit: 0 bytes in 0 blocks\n==27195==   total heap usage: 16 allocs, 16 frees, 489 bytes allocated\n==27195==\n==27195== All heap blocks were freed -- no leaks are possible\n==27195==\n==27195== For counts of detected and suppressed errors, rerun with: -v\n==27195== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1774": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "2 300 0 2 400 3",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==27209== Memcheck, a memory error detector\n==27209== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27209== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27209== Command: output4WO2S8\n==27209==\n====START_TEST_8056====2 300 0 2 400 3====END_TEST_8056======27209==\n==27209== HEAP SUMMARY:\n==27209==     in use at exit: 0 bytes in 0 blocks\n==27209==   total heap usage: 3 allocs, 3 frees, 120 bytes allocated\n==27209==\n==27209== All heap blocks were freed -- no leaks are possible\n==27209==\n==27209== For counts of detected and suppressed errors, rerun with: -v\n==27209== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==27212== Memcheck, a memory error detector\n==27212== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27212== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27212== Command: output4WO2S8\n==27212==\n====START_TEST_8056====2 300 0 2 400 3====END_TEST_8056======27212==\n==27212== HEAP SUMMARY:\n==27212==     in use at exit: 0 bytes in 0 blocks\n==27212==   total heap usage: 3 allocs, 3 frees, 120 bytes allocated\n==27212==\n==27212== All heap blocks were freed -- no leaks are possible\n==27212==\n==27212== For counts of detected and suppressed errors, rerun with: -v\n==27212== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1775": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "200 2 1 0 0 0 300",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "==27226== Memcheck, a memory error detector\n==27226== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27226== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27226== Command: outputnlbKVE\n==27226==\n====START_TEST_4987====200 2 1 0 0 0 300====END_TEST_4987======27226==\n==27226== HEAP SUMMARY:\n==27226==     in use at exit: 0 bytes in 0 blocks\n==27226==   total heap usage: 6 allocs, 6 frees, 232 bytes allocated\n==27226==\n==27226== All heap blocks were freed -- no leaks are possible\n==27226==\n==27226== For counts of detected and suppressed errors, rerun with: -v\n==27226== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==27229== Memcheck, a memory error detector\n==27229== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27229== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27229== Command: outputnlbKVE\n==27229==\n====START_TEST_4987====200 2 1 0 0 0 300====END_TEST_4987======27229==\n==27229== HEAP SUMMARY:\n==27229==     in use at exit: 0 bytes in 0 blocks\n==27229==   total heap usage: 6 allocs, 6 frees, 232 bytes allocated\n==27229==\n==27229== All heap blocks were freed -- no leaks are possible\n==27229==\n==27229== For counts of detected and suppressed errors, rerun with: -v\n==27229== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1776": {
+            "success": false,
+            "status": 5,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "",
+                    "duration": 1,
+                    "status": 3,
+                    "exit_code": 139,
+                    "core": "/tmp/autotester/bs_2675/core.27240",
+                    "success": false
+                },
+                "debug": {
+                    "status": 3,
+                    "duration": 0,
+                    "output": "[New Thread 27240]\nCore was generated by `outputqvH4Kf'.\nProgram terminated with signal 11, Segmentation fault.\n#0  0x00000036312786cc in _int_free () from /lib64/libc.so.6\nwarning: File \"/opt/gcc-4.8.2/lib64/libstdc++.so.6.0.18-gdb.py\" auto-loading has been declined by your `auto-load safe-path' set to \"/usr/share/gdb/auto-load:/usr/lib/debug:/usr/bin/mono-gdb.py\".\nTo enable execution of this file add\n\tadd-auto-load-safe-path /opt/gcc-4.8.2/lib64/libstdc++.so.6.0.18-gdb.py\nline to your configuration file \"/root/.gdbinit\".\nTo completely disable this security protection add\n\tset auto-load safe-path /\nline to your configuration file \"/root/.gdbinit\".\nFor more information about this security protection see the\n\"Auto-loading safe path\" section in the GDB manual.  E.g., run from the shell:\n\tinfo \"(gdb)Auto-loading safe path\"\n#0  0x00000036312786cc in _int_free () from /lib64/libc.so.6\n#1  0x0000000000402321 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:366\n#2  0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#3  0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#4  0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#5  0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#6  0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#7  0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#8  0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#9  0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#10 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#11 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#12 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#13 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#14 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#15 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#16 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#17 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#18 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#19 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#20 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#21 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#22 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#23 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#24 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#25 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#26 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#27 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#28 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#29 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#30 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#31 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#32 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#33 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#34 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#35 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#36 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#37 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#38 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#39 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#40 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#41 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#42 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#43 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#44 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#45 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#46 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#47 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#48 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#49 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#50 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#51 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#52 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#53 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#54 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#55 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#56 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#57 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#58 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#59 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#60 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#61 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#62 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#63 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#64 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#65 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#66 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#67 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#68 0x00000000004022fe in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:364\n#69 0x0000000000402315 in AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) () at main.cpp:365\n#70 0x00000000004022fe in AVLStabloMapa<floa",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": [
+                        {
+                            "file": "main.cpp",
+                            "line": 366
+                        }
+                    ]
+                },
+                "profile[memcheck]": {
+                    "status": 2,
+                    "duration": 3,
+                    "output": "==27250== Memcheck, a memory error detector\n==27250== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27250== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27250== Command: outputqvH4Kf\n==27250==\n==27250== Invalid read of size 8\n==27250==    at 0x4022EB: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==  Address 0x51504a8 is 8 bytes inside a block of size 40 free'd\n==27250==    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==\n==27250== Invalid read of size 8\n==27250==    at 0x4022EB: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==  Address 0x5150358 is 8 bytes inside a block of size 40 free'd\n==27250==    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==\n==27250== Invalid read of size 8\n==27250==    at 0x402302: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==  Address 0x5150360 is 16 bytes inside a block of size 40 free'd\n==27250==    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==\n==27250== Invalid free() / delete / delete[] / realloc()\n==27250==    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==  Address 0x5150350 is 0 bytes inside a block of size 40 free'd\n==27250==    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==\n==27250== Invalid read of size 8\n==27250==    at 0x402302: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==  Address 0x51504b0 is 16 bytes inside a block of size 40 free'd\n==27250==    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n==27250==    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n==27250==    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n==27250==    by 0x4017E5: main (main.cpp:443)\n==27250==\n==27250== Stack overflow in thread 1: can't grow stack to 0x7fe601fd0\n==27250==\n==27250== Process terminating with default action of signal 11 (SIGSEGV): dumping core\n==27250==  Access not within mapped region at address 0x7FE601FD0\n==27250==    at 0x4A05FCB: operator delete(void*) (vg_replace_malloc.c:480)\n==27250==  If you believe this happened as a result of a stack\n==27250==  overflow in your program's main thread (unlikely but\n==27250==  possible), you can try to increase the size of the\n==27250==  main thread stack using the --main-stacksize= flag.\n==27250==  The main thread stack size used in this run was 10485760.\n==27250== Stack overflow in thread 1: can't grow stack to 0x7fe601fc8\n==27250==\n==27250== Process terminating with default action of signal 11 (SIGSEGV)\n==27250==  Access not within mapped region at address 0x7FE601FC8\n==27250==    at 0x4801661: _vgnU_freeres (vg_preloaded.c:58)\n==27250==  If you believe this happened as a result of a stack\n==27250==  overflow in your program's main thread (unlikely but\n==27250==  possible), you can try to increase the size of the\n==27250==  main thread stack using the --main-stacksize= flag.\n==27250==  The main thread stack size used in this run was 10485760.\n==27250==\n==27250== HEAP SUMMARY:\n==27250==     in use at exit: 160 bytes in 4 ",
+                    "exit_code": 139,
+                    "success": false,
+                    "parsed_output": [
+                        {
+                            "type": 2,
+                            "output": " Invalid read of size 8\n    at 0x4022EB: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n    by 0x4017E5: main (main.cpp:443)\n  Address 0x51504a8 is 8 bytes inside a block of size 40 free'd\n    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n    by 0x4017E5: main (main.cpp:443)\n",
+                            "file": "main.cpp",
+                            "line": 364,
+                            "file_alloced": "main.cpp",
+                            "line_alloced": "366"
+                        },
+                        {
+                            "type": 2,
+                            "output": " Invalid read of size 8\n    at 0x402302: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n    by 0x4017E5: main (main.cpp:443)\n  Address 0x5150360 is 16 bytes inside a block of size 40 free'd\n    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n    by 0x4017E5: main (main.cpp:443)\n",
+                            "file": "main.cpp",
+                            "line": 365,
+                            "file_alloced": "main.cpp",
+                            "line_alloced": "366"
+                        },
+                        {
+                            "type": 5,
+                            "output": " Invalid free() / delete / delete[] / realloc()\n    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n    by 0x4017E5: main (main.cpp:443)\n  Address 0x5150350 is 0 bytes inside a block of size 40 free'd\n    at 0x4A06016: operator delete(void*) (vg_replace_malloc.c:480)\n    by 0x402320: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:366)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x4022FD: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:364)\n    by 0x402314: AVLStabloMapa<float, float>::brisiSve(AVLNode<float, float>*) (main.cpp:365)\n    by 0x401BBD: AVLStabloMapa<float, float>::~AVLStabloMapa() (in outputqvH4Kf)\n    by 0x4017E5: main (main.cpp:443)\n",
+                            "file": "main.cpp",
+                            "line": 366,
+                            "file_alloced": "main.cpp",
+                            "line_alloced": "366"
+                        }
+                    ]
+                }
+            }
+        },
+        "1777": {
+            "success": false,
+            "status": 5,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "",
+                    "duration": 9,
+                    "status": 3,
+                    "exit_code": 139,
+                    "core": "/tmp/autotester/bs_2504/core.27265",
+                    "success": false
+                },
+                "debug": {
+                    "status": 3,
+                    "duration": 0,
+                    "output": "[New Thread 27265]\nCore was generated by `outputI6jbm3'.\nProgram terminated with signal 11, Segmentation fault.\n#0  0x000000000040135e in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:362\n362\tvoid AVLStabloMapa<TK,TV>::brisiSve(AVLNode<TK,TV> *r) {\nwarning: File \"/opt/gcc-4.8.2/lib64/libstdc++.so.6.0.18-gdb.py\" auto-loading has been declined by your `auto-load safe-path' set to \"/usr/share/gdb/auto-load:/usr/lib/debug:/usr/bin/mono-gdb.py\".\nTo enable execution of this file add\n\tadd-auto-load-safe-path /opt/gcc-4.8.2/lib64/libstdc++.so.6.0.18-gdb.py\nline to your configuration file \"/root/.gdbinit\".\nTo completely disable this security protection add\n\tset auto-load safe-path /\nline to your configuration file \"/root/.gdbinit\".\nFor more information about this security protection see the\n\"Auto-loading safe path\" section in the GDB manual.  E.g., run from the shell:\n\tinfo \"(gdb)Auto-loading safe path\"\n#0  0x000000000040135e in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:362\n#1  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#2  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#3  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#4  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#5  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#6  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#7  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#8  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#9  0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#10 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#11 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#12 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#13 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#14 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#15 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#16 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#17 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#18 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#19 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#20 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#21 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#22 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#23 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#24 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#25 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#26 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#27 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#28 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#29 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#30 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#31 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#32 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#33 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#34 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#35 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#36 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#37 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#38 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#39 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#40 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#41 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#42 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#43 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#44 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#45 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#46 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#47 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#48 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#49 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#50 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#51 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#52 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#53 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#54 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#55 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#56 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#57 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#58 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#59 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#60 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#61 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#62 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#63 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#64 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#65 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#66 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#67 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#68 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#69 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#70 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#71 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#72 0x0000000000401384 in AVLStabloMapa<int, int>::brisiSve(AVLNode<int, int>*) () at main.cpp:364\n#73 0x0000000000401384 in AVLStabloMapa<in",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": [
+                        {
+                            "file": "main.cpp",
+                            "line": 362
+                        }
+                    ]
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 12,
+                    "output": "==27275== Memcheck, a memory error detector\n==27275== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27275== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27275== Command: outputI6jbm3\n==27275==\n====START_TEST_2504======27275==\n==27275== HEAP SUMMARY:\n==27275==     in use at exit: 23,613,040 bytes in 590,326 blocks\n==27275==   total heap usage: 590,326 allocs, 0 frees, 23,613,040 bytes allocated\n==27275==\n==27275== LEAK SUMMARY:\n==27275==    definitely lost: 0 bytes in 0 blocks\n==27275==    indirectly lost: 0 bytes in 0 blocks\n==27275==      possibly lost: 0 bytes in 0 blocks\n==27275==    still reachable: 23,613,040 bytes in 590,326 blocks\n==27275==         suppressed: 0 bytes in 0 blocks\n==27275== Rerun with --leak-check=full to see details of leaked memory\n==27275==\n==27275== For counts of detected and suppressed errors, rerun with: -v\n==27275== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 124,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 12,
+                    "output": "==27278== Memcheck, a memory error detector\n==27278== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27278== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27278== Command: outputI6jbm3\n==27278==\n====START_TEST_2504======27278==\n==27278== HEAP SUMMARY:\n==27278==     in use at exit: 23,650,520 bytes in 591,263 blocks\n==27278==   total heap usage: 591,263 allocs, 0 frees, 23,650,520 bytes allocated\n==27278==\n==27278== LEAK SUMMARY:\n==27278==    definitely lost: 0 bytes in 0 blocks\n==27278==    indirectly lost: 0 bytes in 0 blocks\n==27278==      possibly lost: 0 bytes in 0 blocks\n==27278==    still reachable: 23,650,520 bytes in 591,263 blocks\n==27278==         suppressed: 0 bytes in 0 blocks\n==27278== Rerun with --leak-check=full to see details of leaked memory\n==27278==\n==27278== For counts of detected and suppressed errors, rerun with: -v\n==27278== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 124,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "1778": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Dodano 1000\nDodano 2000\nDodano 4000\nDodano 8000\nDodano 16000\nDodano 32000\nDodano 64000\nDodano 128000\nDodano 256000\nOK",
+                    "duration": 1,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 12,
+                    "output": "==27293== Memcheck, a memory error detector\n==27293== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27293== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27293== Command: outputkd2EKz\n==27293==\n====START_TEST_6215====Dodano 1000\nDodano 2000\nDodano 4000\nDodano 8000\nDodano 16000\nDodano 32000\nDodano 64000\nDodano 128000\nDodano 256000\n==27293==\n==27293== HEAP SUMMARY:\n==27293==     in use at exit: 27,538,240 bytes in 688,456 blocks\n==27293==   total heap usage: 688,456 allocs, 0 frees, 27,538,240 bytes allocated\n==27293==\n==27293== LEAK SUMMARY:\n==27293==    definitely lost: 0 bytes in 0 blocks\n==27293==    indirectly lost: 0 bytes in 0 blocks\n==27293==      possibly lost: 0 bytes in 0 blocks\n==27293==    still reachable: 27,538,240 bytes in 688,456 blocks\n==27293==         suppressed: 0 bytes in 0 blocks\n==27293== Rerun with --leak-check=full to see details of leaked memory\n==27293==\n==27293== For counts of detected and suppressed errors, rerun with: -v\n==27293== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 124,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "==27304== Memcheck, a memory error detector\n==27304== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.\n==27304== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info\n==27304== Command: outputkd2EKz\n==27304==\n====START_TEST_6215====Dodano 1000\nDodano 2000\nDodano 4000\nDodano 8000\nDodano 16000\nDodano 32000\nDodano 64000\nDodano 128000\nDodano 256000\n==27304==\n==27304== HEAP SUMMARY:\n==27304==     in use at exit: 27,538,240 bytes in 688,456 blocks\n==27304==   total heap usage: 688,456 allocs, 0 frees, 27,538,240 bytes allocated\n==27304==\n==27304== LEAK SUMMARY:\n==27304==    definitely lost: 0 bytes in 0 blocks\n==27304==    indirectly lost: 0 bytes in 0 blocks\n==27304==      possibly lost: 0 bytes in 0 blocks\n==27304==    still reachable: 27,538,240 bytes in 688,456 blocks\n==27304==         suppressed: 0 bytes in 0 blocks\n==27304== Rerun with --leak-check=full to see details of leaked memory\n==27304==\n==27304== For counts of detected and suppressed errors, rerun with: -v\n==27304== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)",
+                    "exit_code": 124,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1610307880
+}

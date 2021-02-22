@@ -1,0 +1,49 @@
+==31012== Memcheck, a memory error detector
+==31012== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==31012== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==31012== Command: /rhome/a/amulalic1/workspace/ASP/Z4/Z1/.runme
+==31012== Parent PID: 31004
+==31012== 
+==31012== Invalid read of size 8
+==31012==    at 0x1097E6: AVLStabloMapa<int, int>::rotirajLijevo(AVLNode<int, int>*) (main.cpp:149)
+==31012==    by 0x109932: AVLStabloMapa<int, int>::rotirajLijevoDesno(AVLNode<int, int>*) (main.cpp:197)
+==31012==    by 0x10975E: AVLStabloMapa<int, int>::rebalansiraj(AVLNode<int, int>*) (main.cpp:225)
+==31012==    by 0x1093E6: AVLStabloMapa<int, int>::azurirajBalans(AVLNode<int, int>*) (main.cpp:236)
+==31012==    by 0x10944D: AVLStabloMapa<int, int>::azurirajBalans(AVLNode<int, int>*) (main.cpp:247)
+==31012==    by 0x1096D7: AVLStabloMapa<int, int>::brisi(int const&, AVLNode<int, int>*&) (main.cpp:358)
+==31012==    by 0x109164: AVLStabloMapa<int, int>::obrisi(int const&) (main.cpp:365)
+==31012==    by 0x108EA2: main (main.cpp:403)
+==31012==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==31012== 
+==31012== 
+==31012== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==31012==  Access not within mapped region at address 0x8
+==31012==    at 0x1097E6: AVLStabloMapa<int, int>::rotirajLijevo(AVLNode<int, int>*) (main.cpp:149)
+==31012==    by 0x109932: AVLStabloMapa<int, int>::rotirajLijevoDesno(AVLNode<int, int>*) (main.cpp:197)
+==31012==    by 0x10975E: AVLStabloMapa<int, int>::rebalansiraj(AVLNode<int, int>*) (main.cpp:225)
+==31012==    by 0x1093E6: AVLStabloMapa<int, int>::azurirajBalans(AVLNode<int, int>*) (main.cpp:236)
+==31012==    by 0x10944D: AVLStabloMapa<int, int>::azurirajBalans(AVLNode<int, int>*) (main.cpp:247)
+==31012==    by 0x1096D7: AVLStabloMapa<int, int>::brisi(int const&, AVLNode<int, int>*&) (main.cpp:358)
+==31012==    by 0x109164: AVLStabloMapa<int, int>::obrisi(int const&) (main.cpp:365)
+==31012==    by 0x108EA2: main (main.cpp:403)
+==31012==  If you believe this happened as a result of a stack
+==31012==  overflow in your program's main thread (unlikely but
+==31012==  possible), you can try to increase the size of the
+==31012==  main thread stack using the --main-stacksize= flag.
+==31012==  The main thread stack size used in this run was 8388608.
+==31012== 
+==31012== HEAP SUMMARY:
+==31012==     in use at exit: 120 bytes in 3 blocks
+==31012==   total heap usage: 5 allocs, 2 frees, 72,864 bytes allocated
+==31012== 
+==31012== LEAK SUMMARY:
+==31012==    definitely lost: 0 bytes in 0 blocks
+==31012==    indirectly lost: 0 bytes in 0 blocks
+==31012==      possibly lost: 0 bytes in 0 blocks
+==31012==    still reachable: 120 bytes in 3 blocks
+==31012==         suppressed: 0 bytes in 0 blocks
+==31012== Reachable blocks (those to which a pointer was found) are not shown.
+==31012== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==31012== 
+==31012== For counts of detected and suppressed errors, rerun with: -v
+==31012== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

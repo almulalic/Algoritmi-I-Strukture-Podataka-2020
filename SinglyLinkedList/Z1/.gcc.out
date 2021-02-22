@@ -1,0 +1,15 @@
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘TV& NizMapa<TK, TV>::operator[](const TK&) [with TK = float; TV = std::vector<double>]’:
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp:268:14:   required from here
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp:137:24: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(kljucevi[i] == kljuc) {
+            ~~~~~~~~~~~~^~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘TV NizMapa<TK, TV>::operator[](const TK&) const [with TK = float; TV = std::vector<double>]’:
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp:365:1:   required from here
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp:120:24: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(kljucevi[i] == kljuc) {
+            ~~~~~~~~~~~~^~~~~~~~
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘void NizMapa<TK, TV>::obrisi(const TK&) [with TK = float; TV = std::vector<double>]’:
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp:365:1:   required from here
+/rhome/a/amulalic1/workspace/ASP/Z16/Z1/main.cpp:170:24: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(kljucevi[i] == kljuc) {
+            ~~~~~~~~~~~~^~~~~~~~

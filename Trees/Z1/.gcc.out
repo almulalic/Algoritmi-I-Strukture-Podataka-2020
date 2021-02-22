@@ -1,0 +1,6 @@
+/rhome/a/amulalic1/workspace/ASP/Z4/Z1/main.cpp: In instantiation of ‘void AVLStabloMapa<TK, TV>::brisi(const TK&, AVLNode<TK, TV>*&) [with TK = int; TV = int]’:
+/rhome/a/amulalic1/workspace/ASP/Z4/Z1/main.cpp:365:10:   required from ‘void AVLStabloMapa<TK, TV>::obrisi(const TK&) [with TK = int; TV = int]’
+/rhome/a/amulalic1/workspace/ASP/Z4/Z1/main.cpp:403:15:   required from here
+/rhome/a/amulalic1/workspace/ASP/Z4/Z1/main.cpp:303:7: warning: variable ‘lijevo’ set but not used [-Wunused-but-set-variable]
+  bool lijevo = false;
+       ^~~~~~

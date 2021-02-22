@@ -1,0 +1,4 @@
+Test kada se trazeni element nalazi u prvom redu: USPJESAN
+Test kada se trazeni element nalazi u sredini: USPJESAN
+Test kada se trazeni element nalazi u zadnjem redu: USPJESAN
+Test kada se trazeni element ne nalazi u steku: USPJESAN
